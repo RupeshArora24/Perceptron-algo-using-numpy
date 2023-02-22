@@ -71,5 +71,6 @@ for i in range(1000):
     epoch=epoch+1
     print(E_total)
 
-
+print("No. of epoches required = ",epoch)
 print("The value of etotal = ",E_total)
+

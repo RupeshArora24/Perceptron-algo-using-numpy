@@ -24,7 +24,7 @@ i=0
 
 
 
-for i in range(5):
+for i in range(1000):
     E_total = 0
     print("epoch",epoch)
     i=0
@@ -83,8 +83,10 @@ for i in range(5):
         print("The value of w_new = ", w_new)
     print("Total error", E_total)
     epoch=epoch+1
-    if(E_total==[[0]]):
+
+    if(E_total==0):
         break;
 
 
 print("The value of etotal = ",E_total)
+print("No. of epoches required = ",epoch)

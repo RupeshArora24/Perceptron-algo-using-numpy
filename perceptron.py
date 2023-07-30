@@ -13,7 +13,7 @@ w=w_new=np.round_(random_w,decimals=1)
 Error=E_total=0
 w_new=w_old=w
 epoch = 0
-
+#Wrote the code on own 
 
 
 

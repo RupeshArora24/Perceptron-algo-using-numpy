@@ -14,7 +14,7 @@ Error=E_total=0
 w_new=w_old=w
 epoch = 0
 #Wrote the code on own 
-
+#want to update for github nothing updated
 
 
 print("W_mew - ",w_new,w,w_old)
